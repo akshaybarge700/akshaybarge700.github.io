@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Tailor and Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: #fdfdfd;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.3rem;
+      margin: 15px 0;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+    .btn {
+      background: #FFD700;
+      color: #0D3B66;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #0D3B66;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .service-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .about img {
+      flex: 1;
+      border-radius: 12px;
+      max-width: 100%;
+    }
+    .about-text {
+      flex: 2;
+    }
+    .why {
+      background: url('https://images.unsplash.com/photo-1593032465171-8d4684d0f944') center/cover no-repeat;
+      color: white;
+      padding: 60px 20px;
+      border-radius: 12px;
+    }
+    .why .service-card {
+      background: rgba(0,0,0,0.6);
+      color: white;
+    }
+    footer {
+      background: #0D3B66;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Latest Tailor and Design</h1>
+    <p>Perfect Fit • Modern Style • Trusted Tailoring</p>
+    <a href="#services" class="btn">OUR SERVICES</a>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Professional Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1624835567150-0c530a20d8cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVucyUyMHNoaXJ0fGVufDB8fDB8fHww" alt="Men's Shirt Stitching">
+        <h3>👔 Men's Shirt Stitching</h3>
+        <p>₹600 – ₹1,000</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/926144724/photo/portrait-of-indian-businessman.webp?a=1&b=1&s=612x612&w=0&k=20&c=y8gnPmVwsuREVYCL-4BewDMcIrlY8yif6TjYVHb7tWs=" alt="Pant Tailoring">
+        <h3>👖 Men's Pant / Trouser</h3>
+        <p>₹700 – ₹1,200</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/1257109902/photo/tailor-taking-measurements-of-his-customer.webp?a=1&b=1&s=612x612&w=0&k=20&c=18RmrUnLjGDjnopHeQ2PwQSXh7tOqg9vzcMlcREPu1c=" alt="Alterations">
+        <h3>🧵 Alterations</h3>
+        <p>From ₹150</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Ladies Dress">
+        <h3>👗 Ladies Dress / Kurti</h3>
+        <p>₹800 – ₹1,500</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/909364218/photo/luxury-sparkling-womens-dresses-on-hangers.webp?a=1&b=1&s=612x612&w=0&k=20&c=I9NTevvedz5A81SLdwGOa3veRXbp_chXi9kDspSuRuM=" alt="Bridal Outfit">
+        <h3>💍 Bridal / Designer Outfit</h3>
+        <p>₹2,500 onwards</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/482020158/photo/mens-jacket-isolated-on-white-with-clipping-path.webp?a=1&b=1&s=612x612&w=0&k=20&c=dbhS41kQ11GUTqS9FDSmmPTamR9J9B9jMpThvUqYKAM=" alt="Custom Blazer">
+        <h3>🕴️ Custom Blazer / Suit</h3>
+        <p>₹3,000 – ₹6,000</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/2223768400/photo/ornate-embroidered-historical-style-mens-waistcoat-with-floral-pattern-embroidery.webp?a=1&b=1&s=612x612&w=0&k=20&c=xx_gsjInhN8XeaQUroGnOkWIAvF9W2M1AkPJpHqsQa4=" alt="Embroidery">
+        <h3>🪡 Embroidery & Handwork</h3>
+        <p>As per design</p>
+      </div>
+      <div class="service-card">
+        <img src="https://media.istockphoto.com/id/1487619537/photo/man-holding-a-pile-of-folded-clothes-and-pointing-at-the-dry-cleaners-shop.webp?a=1&b=1&s=612x612&w=0&k=20&c=cykl_fm6Qkig4e03W4iZGUab3tWEhQBuHLvz8Fhh7Gc=" alt="Express Service">
+        <h3>⚡ Express Service</h3>
+        <p>1–2 Days (Extra charges)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section>
+    <h2>About Us</h2>
+    <div class="about">
+      <img src="https://media.istockphoto.com/id/1257109889/photo/senior-fashion-designer-working-on-his-client-in-a-design-studio.webp?a=1&b=1&s=612x612&w=0&k=20&c=pWu-EqAE8hPjQHjjjlUV4G1KIHRE65QGRfEKwjWO-BI=" alt="Tailor Shop">
+      <div class="about-text">
+        <p>At <b>Latest Tailor and Design</b>, we blend modern fashion with traditional craftsmanship. From men’s wear to bridal couture, every outfit is stitched with precision and love.</p>
+        <p>We promise perfection, timely delivery, and your 100% satisfaction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why">
+    <h2>Why Choose Us?</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>✔ Perfect Fit</h3>
+        <p>Tailored exactly to your size.</p>
+      </div>
+      <div class="service-card">
+        <h3>✔ Professional Touch</h3>
+        <p>Skilled tailors with years of experience.</p>
+      </div>
+      <div class="service-card">
+        <h3>✔ Affordable Prices</h3>
+        <p>Premium stitching at reasonable rates.</p>
+      </div>
+      <div class="service-card">
+        <h3>✔ Fast Delivery</h3>
+        <p>Express stitching within 1–2 days.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><b>Phone / WhatsApp:</b> 8007371818</p>
+    <p><b>Address:</b> Sai Deep Apartment, Navi Mumbai</p>
+    <p><b>Hours:</b> 9 AM – 9 PM</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright ©2025 All rights reserved | Latest Tailor and Design</p>
+  </footer>
+
+</body>
+</html>
